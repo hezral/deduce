@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=deduce
+Exec=com.github.hezral.deduce
+Terminal=false
+Type=Application
+Categories=GTK;
+StartupNotify=true

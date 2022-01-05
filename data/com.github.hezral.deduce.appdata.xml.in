@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2020 Adi Hezraln <hezral@gmail.com> -->
+<component type="desktop">
+  <id>com.github.hezral.deduce</id>
+  <metadata_license>CC0</metadata_license>
+  <project_license>GPL-3.0+</project_license>
+  <name>deduce</name>
+  <summary>View file metadata information</summary>
+  <developer_name>Adi Hezral</developer_name>
+  <description>
+    <p>View file metadata information</p>
+    <ul>
+        <li>Supported file metadata by ExifTool</li>
+        <li>Supports adding file comments, provided the filesystem supports it</li>
+    </ul>
+  </description>
+
+  <provides>
+      <binary>com.github.hezral.deduce</binary>
+  </provides>
+
+  <url type="homepage">https://github.com/hezral/deduce</url>
+  <url type="help">https://github.com/hezral/deduce/issues</url>
+  <url type="bugtracker">https://github.com/hezral/deduce/issues/labels/bug</url>
+
+  <screenshots>
+      <screenshot type="default">
+          <caption>Basic file information and file comments view</caption>
+          <image>https://github.com/hezral/deduce/blob/master/data/screenshot-01.png?raw=true</image>
+      </screenshot>
+  </screenshots>
+
+  <content_rating type="oars-1.1" />
+
+  <releases>
+    <release version="1.0.0" date="2021-11-12">
+      <description>
+        <p>First release</p>
+      </description>
+    </release>
+  </releases>
+
+  <custom>
+    <value key="x-appcenter-color-primary">#B7E1E5</value>
+    <value key="x-appcenter-color-primary-text">#29484F</value>
+    <value key="x-appcenter-suggested-price">2.00</value>
+    <value key="x-appcenter-stripe">pk_live_51HUnWtAIOwvlC6vL2CzkJLIag2jOPmncxxnkjukyaHhdQrvgtVz11ji7g0eCofbf84QK7wksSEKCCmrIt0AMM8jZ00cVKp27Ih</value>
+  </custom>
+
+</component>

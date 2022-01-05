@@ -1,0 +1,6 @@
+data/com.github.hezral.deduce.desktop.in
+data/com.github.hezral.deduce.appdata.xml.in
+data/com.github.hezral.deduce.gschema.xml
+src/main.py
+src/window.py
+

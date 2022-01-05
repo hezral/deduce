@@ -1,1 +1,1 @@
-# deduce
+# template for flatpak gtk app

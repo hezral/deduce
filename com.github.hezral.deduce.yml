@@ -1,0 +1,17 @@
+app-id: com.github.hezral.deduce
+runtime: io.elementary.Platform
+runtime-version: '6'
+sdk: io.elementary.Sdk
+command: com.github.hezral.deduce
+finish-args:
+  - --socket=wayland
+  - --socket=fallback-x11
+  - --share=network
+  # needed for perfers-color-scheme
+  - --system-talk-name=org.freedesktop.Accounts
+modules:
+  - name: deduce
+    buildsystem: meson
+    sources:
+      - type: dir
+        path: .
